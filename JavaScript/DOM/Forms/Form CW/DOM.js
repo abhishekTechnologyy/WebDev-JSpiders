@@ -1,0 +1,1 @@
+if(firstName.value.length > 3 && password.value.length >= 6 && (password == confirmPassword))

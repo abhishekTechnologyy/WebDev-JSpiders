@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(./weatherImg.jpeg);
+            background-size: cover;
+            background-position:center;
+            height: 100vh;
+        }
+        .weather{
+            display: flex;
+            justify-content: center;
+        }
+        .weatherDiv{
+            padding: 30px 0px;
+            transform: translateY(100px);
+            width: 50%;
+            box-shadow: 5px 5px 28px black;
+            border-radius: 25px;
+            text-align: center;
+        }
+        .searchBar input{
+           
+            border: 1px solid black;
+            outline: none;
+            padding-left: 20px;
+            height: 30px;
+            width: 300px;
+        }
+        .button button{
+            background-color: white;
+            border: 1px solid gray ;
+            padding: 10px 20px;
+            margin-top: 15px;
+            border-radius: 16px;
+        }
+        .title{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="weather">
+             <div class="weatherDiv">
+                    <div class="searchBar">
+                            <input id="searchValue" type="text" placeholder="enter city name">
+                    </div>
+
+                    <div class="button">
+                            <button onclick="search()">Search</button>
+                    </div>
+
+        <div class="weatherInfo">
+            <h1 id="temperature"> 0 <sup>o</sup>C</h1>
+            <h3 id="cityName">City Name</h3>
+            <p id="countryName">Country</p>
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

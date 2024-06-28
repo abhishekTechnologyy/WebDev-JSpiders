@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <div id="page" class="main">
+        <div class="navbar">
+            <input id="input" type="text" placeholder="City Name">
+            <button type="submit" onclick="search()">Search</button>
+        </div>
+        <div class="temp">
+            <h1 id="temp">28 degree</h1>
+            <h2 id="city">Chennai</h2>
+            <p id="country">India</p>
+        </div>
+        <div class="row1">
+            <div class="feels-like">
+                <p>Maximum Temperature</p>
+                <h1 id="feels-like">30 degree</h1>
+            </div>
+            <div class="preci">
+                <p>Minimum Temperature</p>
+                <h1 id="precipitation">2.3</h1>
+            </div>
+        </div>
+        <div class="row1">
+            <div class="feels-like">
+                <p>Visibility</p>
+                <h1 id="visibility">6 mi</h1>
+            </div>
+            <div class="preci">
+                <p>Humidity</p>
+                <h1 id="humidity">82%</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+
+</html>

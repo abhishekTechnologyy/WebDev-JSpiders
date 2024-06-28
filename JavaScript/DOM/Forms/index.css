@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.form1 h1{
+    font-size: 50px;
+    padding: 10px;
+    margin: 0px 10px;
+}
+.form1 p{
+    padding: 10px;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+.form1 a{
+    margin: 8px;
+}
+.sec{
+    font-size: 22px;
+    padding: 15px;
+}
+.sec label{
+    margin: 10px;
+}
+.sec input{
+    margin: 10px;
+}
+.k input{
+    padding: 10px 80px;
+    border-radius: 9px;
+    margin: 10px;
+}
+.sec a{
+    margin: 110px;
+    font-size: 17px;
+    
+}
+.d input{
+    padding: 10px 80px;
+    border-radius: 9px;
+    margin: 10px;
+}
+.c input{
+    margin: 10px;
+    height: 29px;
+    width: 22px;
+    border-radius: 80px;
+}
+.c label{
+    font-size: 20px;
+}
+.l button{
+    padding: 10px 150px;
+    border: none;
+    border-radius: 6px;
+    background-color: purple;
+    color: white;
+    margin: 10px;
+}
+.h button{
+    padding: 10px 45px;
+    border-radius: 8px;
+    margin: 18px;
+    background-color: white;
+}

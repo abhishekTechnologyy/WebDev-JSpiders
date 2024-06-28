@@ -1,0 +1,107 @@
+body{
+    overflow: hidden;
+    background-color: cornsilk;
+}
+
+.main{
+    background-image: url("weatherImg.jpeg");
+    height: 97vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.navbar input{
+    border-radius: 20px;
+    margin-left: 30px;
+    padding: 16px 26px;
+    border: none;
+}
+
+.navbar button{
+    border-radius: 20px;
+    padding: 10px 26px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.navbar img{
+    background: none;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.navbar p{
+    margin-left: 20px;
+    /* color: white; */
+}
+
+.temp h1{
+    /* color: white; */
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.temp h2{
+    /* color: white; */
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.temp p{
+    /* color: white; */
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 2px;
+}
+
+.feels-like{
+    width: 200px;
+    height: 180px;
+    background-color: gray;
+    position: relative;
+    top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.preci{
+    width: 200px;
+    height: 180px;
+    background-color: gray;
+    position: relative;
+    top: 50px;
+    margin-left: 28px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feels-like h1,p{
+    position: relative;
+    left: 20px;
+}
+
+.preci h1,p{
+    position: relative;
+    left: 20px;
+}

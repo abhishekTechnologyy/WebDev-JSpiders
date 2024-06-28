@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Resort{
+    background:linear-gradient(rgba(0, 0, 0, 0.369),rgba(0, 0, 0, 0.673))  ,url(./Images/AudiBG.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;   
+    padding-left: 18px; 
+    margin-bottom: 20px;
+    background-color: black;
+    position: fixed;
+}
+
+.logo1{
+    color: white;
+    margin-right: 950px;
+}
+
+.logo2{
+    color: white;
+    transform: translate(-940px);
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+ .links a{
+    color: white;
+    text-decoration: none;
+ }
+
+ .link1{
+    transform: translateX(-500px);
+    font-size: 20px;
+}
+
+.link2{
+    transform: translateX(-450px);
+    font-size: 20px;
+
+}
+
+.link3{
+    transform: translate(-400px);
+    font-size: 20px;
+
+}
+
+.link4{
+    transform: translateX(-350px);
+    font-size: 20px;
+
+}
+
+.link5{
+    transform: translateX(-300px);
+    font-size: 20px;
+
+}
+
+.btn{
+    transform: translateX(10px);
+    padding: 10px 30px;
+    color: white;
+    background-color: plum;
+    border: none;
+    margin-bottom: 5px;
+
+}
+
+.mainArea{
+    transform: translateY(200px);
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+
+.head1{
+    font-size: 55px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head2{
+    font-size: 55px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#checkin{
+    transform: translateY(250px);
+    color: white;
+    margin-left: -400px;
+}
+.form1{
+    transform: translateY(260px);
+    margin-left: -400px;
+}
+.form1 input{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+#checkout{
+    transform: translateY(230px);
+    color: white;
+    margin-left: -150px;
+}
+.form2{
+    transform: translateY(240px);
+    margin-left: -150px;
+}
+.form2 input{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.btn3{
+    transform: translateY(180px);
+    margin-left: 100px;
+    padding: 16px 80px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.btn4{
+    transform: translateY(190px);
+    margin-left: 50px;
+    padding: 16px 80px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.btn5{
+    transform: translateY(190px);
+    margin-left: 600px;
+    padding: 16px 80px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    font-size: 15px;
+
+}
+
+.secPart{
+    margin: 50px;
+    background-color: white;
+
+}
+.img1{
+    height: 50px;
+    width: 50px;
+}
+.contants{
+
+    transform: translateX(550px);
+    margin: 10px;
+
+}
+.headPart3{
+    margin-bottom: 20px;
+}
+.headPart4
+{
+    font-size: 18px;
+}
+.btn5{
+    transform: translateY(80px);
+    margin-left: 30px;
+    padding: 16px 80px;
+    background-color: white;
+    color: Red;
+    border: 1px solid Red;
+    font-size: 15px;
+}
+.img2{
+    transform: translateX(400px);
+    margin-top: -350px;
+}
