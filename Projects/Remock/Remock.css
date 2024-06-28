@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.phonepe{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    position: fixed;
+    width: 1450px;
+    height: 50px;
+}
+
+.logo{
+    color: purple;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.link1{
+    transform: translateX(-280px);
+}
+
+.link2{
+    transform: translateX(-240px);
+}
+
+.link3{
+    transform: translateX(-200px);
+}
+
+.link4{
+    transform: translateX(-160px);
+}
+
+.link5{
+    transform: translateX(-120px);
+}
+
+.link6{
+    transform: translateX(-80px);
+}
+
+.link7{
+    transform: translateX(-40px);
+}
+
+.secondPart{
+    background:url(./Images/phonePeIMG.jpeg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;  
+    margin-bottom: 90px;
+
+
+}
+
+.content{
+    color: purple;
+    transform: translateY(100px);
+    width: 600px;
+
+}
+
+.head1{
+    transform: translateX(400px);
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.head2{
+    transform: translateX(300px);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.head3{
+    transform: translateX(300px);
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.head4{
+    transform: translateX(300px);
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+.btn1{
+    transform: translateX(300px);
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 39px;
+    border: none;
+    background-color: purple;
+    color: whitesmoke;
+}
+
+.rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rect1{
+    display: flex;
+    height: 300px;
+    width: 550px;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 15px 15px 15px gray;
+    border-radius: 10px;
+    transform: translateX(20px);
+    margin-bottom: 50px;
+}
+
+.rect2{
+    display: flex;
+    height: 300px;
+    width: 550px;
+    border: 1px solid black;
+    padding: 25px;
+    box-shadow: 15px 15px 15px gray;
+    border-radius: 10px;
+    transform: translate(10px);
+    margin-bottom: 50px;
+}
+
+.para1{
+    font-size: 29px;
+    transform: translateY(40px);
+
+}
+
+.para2{
+    font-size: 29px;
+    margin-bottom: 20px;
+    transform: translateY(50px);
+
+}
+
+.para3{
+    font-size: 20px;
+    transform: translateY(60px);
+
+}
+
+.para4{
+    font-size: 20px;
+    transform: translateY(70px);
+}
+
+.photo{
+    height: 220px;
+    width: 220px;
+    border-radius: 110px;
+    transform: translateX(100px);
+    margin-top: 20px;
+}
+
+.parag1{
+    font-size: 29px;
+    transform: translateY(40px);
+
+}
+
+.parag2{
+    font-size: 29px;
+    margin-bottom: 20px;
+    transform: translateY(50px);
+
+}
+
+.parag3{
+    font-size: 20px;
+    transform: translateY(60px);
+
+}
+
+.parag4{
+    font-size: 20px;
+    transform: translateY(70px);
+
+}
+
+.photo2{
+    height: 220px;
+    width: 160px;
+    transform: translateX(100px);
+    margin-top: 20px;
+
+
+}
+
+.rect1:hover{
+    box-shadow: 25px 25px 25px gray;
+}
+
+.rect2:hover{
+    box-shadow: 25px 25px 25px gray;
+}
+
+.fouthPart{
+    background-color: white;
+}
+
+.fifthPart{
+    display: flex;
+    margin-top: 100px;
+    padding-left: 200px;
+}
+
+.heading1{
+    color: purple;
+    margin-bottom: 50px;
+    /* font-size: 20px; */
+}
+.thirdHeadOne{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.thirdParaOne{
+    margin-bottom: 20px;
+}
+
+.thirdHead2{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.thirdPara2{
+    margin-bottom: 20px;
+}
+
+.thirdHead3{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.thirdPara3{
+    margin-bottom: 20px;
+}
+
+.video{
+    margin-top: -80px;
+}
+
+
+@media only screen and (max-width:700px)
+{
+    .phonepe{
+        background-color: white;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .secondPart{
+        background:url(./Images/phonePeIMG.jpeg);
+        height: 70vh;
+        background-size:cover;
+        background-position: center;  
+        margin-bottom: 90px;
+    
+    
+    }
+    
+    .rectangle{
+        display: block;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .rect1{
+        display: flex;
+        height: 250px;
+        width: 500px;
+        border: 1px solid black;
+        padding: 20px;
+        box-shadow: 15px 15px 15px gray;
+        border-radius: 10px;
+        transform: translateX(20px);
+        margin-bottom: 50px;
+    }
+    
+    .rect2{
+        display: flex;
+        height: 250px;
+        width: 500px;
+        border: 1px solid black;
+        padding: 25px;
+        box-shadow: 15px 15px 15px gray;
+        border-radius: 10px;
+        transform: translate(10px);
+        margin-bottom: 50px;
+    }
+
+    .content{
+        color: purple;
+        transform: translateY(100px);
+        width: 200px;
+    }
+    .fifthPart{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        padding-left: 200px;
+    }
+    .video{
+        transform: translateX(-180px);
+    }
+
+}

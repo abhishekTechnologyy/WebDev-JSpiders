@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-top: 30px;
+    
+}
+
+.marketing{
+    background: linear-gradient(black,black);
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.logo{
+    transform: translateX(-200px);
+}
+.link1{
+    margin-right: 60px;
+    transition: 0.5s;
+}
+.link2{
+    margin-right: 60px;
+    transition: 0.5s;
+
+}
+.link3{
+    margin-right: 60px;
+    transition: 0.5s;
+
+    
+}
+.link4{
+    margin-right: 60px;
+    transition: 0.5s;
+
+}
+.link5{
+    margin-right: 60px;
+    transition: 0.5s;
+
+}
+
+.link1:hover{
+    text-decoration: underline;
+    color: yellow;
+    transform: scale(1.02);
+}
+.link2:hover{
+    text-decoration: underline;
+    color: yellow;
+    transform: scale(1.02);
+}
+.link3:hover{
+    text-decoration: underline;
+    color: yellow;
+    transform: scale(1.02);
+}
+.link4:hover{
+    text-decoration: underline;
+    color: yellow;
+    transform: scale(1.02);
+}
+.link5:hover{
+    text-decoration: underline;
+    color: yellow;
+    transform: scale(1.02);
+}
+.search{
+    margin-right: -220px;
+}
+.content{
+    padding: 100px 60px;
+}
+ #head{
+    color: yellow;
+    font-size: 42px;
+ }
+ #head2{
+    color: white;
+    font-size: 42px;
+    margin-bottom: 20px;
+ }
+
+ .cont2{
+    color: white;
+    padding-right: 1000px;
+    margin-bottom: 2px;
+ }
+
+ .name input{
+            height: 40px;
+            width: 200px;
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 19px;
+            padding: 0 45px;
+            margin: 10px 20px;
+            font-size: 15px;
+ }
+ .name::placeholder{
+    color: black;
+ }
+
+ .email input{
+            height: 40px;
+            width: 200px;
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 19px;
+            padding: 0 45px;
+            margin: 10px 20px;
+            font-size: 15px;
+
+ }
+
+ .btn1 button{
+    border-radius: 20px;
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    padding: 15px 20px;
+    margin: 20px 20px;
+    font-size: 15px;
+ }
+
+ 
+ .mainImg img{
+   
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    transform: translateY(-450px);
+    margin-left: 750px;
+    /* transform: translateX(50px); */
+ }
+
+
